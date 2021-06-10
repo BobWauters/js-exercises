@@ -18,5 +18,6 @@
 their role. 
   - lowerTitle, wrapped
   
-* I be
+* It wraps specified attributes connected to tag
+so that each parameter will be accounted for when code is executed
   
