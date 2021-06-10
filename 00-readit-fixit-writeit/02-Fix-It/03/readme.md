@@ -6,4 +6,6 @@
 ## Answer
 error Uncaught ReferenceError: movies is not defined    (changed all movies tags to the declared variable tvshows)
 
-didnt found solution to change order of list, tried Reverse array but no results.
+enter =
+const reversed = tvshows.reverse()  to reverse the variable in question. 
+ 
