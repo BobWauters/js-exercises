@@ -21,7 +21,7 @@ for (let i = 0; i < movies.length; i++) {
 document.write(`</ul>`);
 */
 
-
+/*
 const wrapWithTag = (content, tagname) => `<${tagname}>${content}</${tagname}>`;
 
 const moviesReverse = movies.reverse();
@@ -29,3 +29,18 @@ const moviesReverse = movies.reverse();
 const lowerCaseMovies = movies.map(movies => movies.toLowerCase());
 
 lowerCaseMovies.forEach(moviesReverse => document.write(wrapWithTag(moviesReverse)));
+*/
+const wrapWithTag = (content, tagname) => {
+    return `<${tagname}>${content}</${tagname}>`;
+};
+const parseTitle = title => {
+    const lowerTitle = title.toLowerCase();
+    const wrapped = wrapWithTag(lowerTitle, `li`);
+    return wrapped;
+};
+
+document.write(`<ol>`);
+for (let i = movies.length-1; i>=0; i--) {
+    document.write(parseTitle(movies[i]));
+}
+document.write(`</ol>`);
