@@ -5,7 +5,6 @@
 
 ## Answer
 error Uncaught ReferenceError: movies is not defined    (changed all movies tags to the declared variable tvshows)
-
 enter =
 const reversed = tvshows.reverse()  to reverse the variable in question. 
  
