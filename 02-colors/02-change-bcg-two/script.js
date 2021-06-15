@@ -9,8 +9,12 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+
+// TODO: Review & do again
+
 (function() {
-
-    // your code here
-
+    document.getElementById("run").onclick = function () {
+        let getColor = document.getElementById("color").value;
+        document.body.style.backgroundColor = getColor;
+    }
 })();
