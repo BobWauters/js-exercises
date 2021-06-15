@@ -9,10 +9,21 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+// TODO: Redo and Review + find way to get time hours into function
 (function() {
 
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
+
+
+    const newDate = new Date();
+    const hours = newDate.getHours()
+    if (hours<17.30) {
+        document.getElementById("target").innerHTML = "Hellow"
+    }
+    else {
+        document.getElementById("target").innerHTML = "Evening"
+    }
 
 })();
