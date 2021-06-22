@@ -13,4 +13,6 @@
 
     // your code here
 
+    var tableMaker = document.createElement("#target");
+
 })();

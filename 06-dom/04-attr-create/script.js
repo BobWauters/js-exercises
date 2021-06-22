@@ -14,6 +14,7 @@
 (function() {
 
     // your code here
+
     //TODO: verify and check again
 
     //TODO: get image               DONE
