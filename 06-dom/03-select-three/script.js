@@ -11,6 +11,9 @@
 
 (function() {
 
+    // WATCH OUT FOR THE . IN THE SELECTOR SECTION ---> ".TARGET"
     // your code here
-
+    document.querySelectorAll(".target").forEach(function (element){
+        element.innerHTML ="booyah owned";
+    })
 })();
