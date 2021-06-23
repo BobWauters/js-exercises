@@ -9,4 +9,15 @@
 
 (() => {
     // your code here
+
+
+    fetch('http://localhost:63342/js-exercises/_shared/api.json', )
+        .then((response) =>{
+            console.log(response.json());
+            return response.json();
+
+            })
+        .then ((data) =>{
+            console.log(data)
+            });
 })();

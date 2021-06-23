@@ -9,5 +9,12 @@
 
 (() => {
     // your code here
-    //Read 
+
+    document.getElementById("run").addEventListener("click", function (){
+    document.getElementById("#") })
+    fetch('http://localhost:63342/js-exercises/_shared/api.json')
+    .then(response => response.json())
+    .then (data=>console.log(data))
+
+
 })();
